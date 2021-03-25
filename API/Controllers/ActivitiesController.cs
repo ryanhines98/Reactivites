@@ -27,6 +27,5 @@ namespace API.Controllers
         {
             return await context.Activities.FindAsync(id);
         }
-
     }
 }
